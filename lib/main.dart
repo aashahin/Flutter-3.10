@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learn_flutter/messenger_screen.dart';
 import 'package:learn_flutter/users_screen.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context){
     return const MaterialApp(
       title: "Learn Flutter",
-      home: UsersScreen(),
+      home: MessengerScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
